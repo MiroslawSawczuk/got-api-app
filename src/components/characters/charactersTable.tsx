@@ -54,7 +54,7 @@ const CharactersTable = (props: CharactersTableProps): JSX.Element => {
     } else if (born && !died) {
       colAlive = "Yes";
     } else {
-      //TODO implement edge cases
+      //TODO implement preventing from edge cases
       //TODO display info 'No data'
     }
 
